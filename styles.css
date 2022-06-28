@@ -3,3 +3,38 @@
 :root {
     font-family: "norse", sans-serif;
 }
+
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 40vw;
+}
+
+.img-caption {
+    width: 40vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    background-color: rgba(155, 155, 155, 0.925);
+}
+
+.img-odin {
+    height: 100%;
+}
+
+.background {
+    width: 100%;   
+}
+
+.right {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+

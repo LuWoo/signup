@@ -10,21 +10,27 @@
 }
 
 .background {
-    width: 40vw;   
+    width: 30vw;   
 }
 
 .img-caption {
-    width: 40vw;
+    width: 30vw;
     height: 100px;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: absolute;
-    top: 30vh;
-    background-color: rgba(155, 155, 155, 0.925);
+    top: 25vh;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 10px 0px;
 }
 
 .img-odin {
     height: 100%;
 }
 
+.odin-text {
+    font-size: 5rem;
+    color: white;
+}
 
